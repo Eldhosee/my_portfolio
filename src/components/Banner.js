@@ -36,9 +36,7 @@ const Banner = () => {
             />
           </div>
           <p className='mb-8 max-w-lg lg-mx-0'>
-            Motivated B.Tech student with strong leadership abilities and a genuine passion for web technologies.Actively seeking
-            an entry-level role to leverage my adaptability and contribute to a collaborative team with a passion for building and
-            maintaining reliable systems
+          I'm a passionate web developer driven by turning ideas into seamless, beautiful realities. With expertise in crafting functional and visually captivating websites, I go beyond just coding - I connect with your vision and create experiences that resonate with your audience.
           </p>
           <div className='flex flex-col 
           '>
@@ -62,7 +60,7 @@ const Banner = () => {
           </div>
           </div>
           <div>
-            <motion.img initial={{opacity:0,y:100}} animate={{ opacity: 1,y:0 }} transition={{duration: 1, ease: "easeOut"}}
+            <motion.img initial={{opacity:0,y:100}} whileInView={{ opacity: 1,y:0 }} transition={{duration: 1, ease: "easeOut"}}
               src={avatar} alt='avatar' />
           </div>
         </div>

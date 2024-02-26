@@ -21,6 +21,7 @@
     #b936ee 100%,
     #ff56f6 117.04%
   );
+  transition: background-color 1s ease-in-out;
 }
 
 .gradient,
