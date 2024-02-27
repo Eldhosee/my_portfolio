@@ -8,15 +8,16 @@ const Banner = () => {
   return (
     <section className='section' id='home'>
       <div className='container mx-auto  '>
-        <div className='flex max-md:flex-col-reverse lg:justify-between items-center'>
+        <motion.div initial={{opacity:0,y:100}} whileInView={{ opacity: 1,y:0 }} transition={{duration: 1, ease: "easeOut"}}
+         className='flex max-md:flex-col-reverse lg:justify-between items-center'>
           <div>
-          <div className=''>
-            <h1
-            
-            className='text-[55px] font-bold leading-[0.8] lg:text-[70px] '>
-              ELDHOSE <span>IYPE</span>
-            </h1>
-          </div>
+            <div >
+              <h1
+              
+              className='text-[55px] font-bold leading-[0.8] lg:text-[70px] '>
+                ELDHOSE <span>IYPE</span>
+              </h1>
+            </div>
           <div className='mb-6 text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1]'>
             <span className='text-white mr-4'>
               I am a
@@ -60,10 +61,10 @@ const Banner = () => {
           </div>
           </div>
           <div>
-            <motion.img initial={{opacity:0,y:100}} whileInView={{ opacity: 1,y:0 }} transition={{duration: 1, ease: "easeOut"}}
+            <img 
               src={avatar} alt='avatar' />
           </div>
-        </div>
+        </motion.div>
       </div>
     </section>);
 };

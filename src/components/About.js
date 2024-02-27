@@ -22,9 +22,11 @@ const About = () => {
         <p>
         I am a developer with a knack for crafting beautiful and functional websites that transform ideas into online realities. With a strong foundation in various Web technologies , I'm adept at building user-centric experiences that not only look great but also deliver results.
         </p>
-        <a href='#' className='text-gradient btn-link mt-5'>
+        <div className='mt-5'>
+        <a href='#' className=' text-gradient btn-link '>
                   View My Skills
           </a>
+      </div>
       </div>
     </motion.div>
   </div>
