@@ -20,7 +20,7 @@ const Educations = () => {
                         </span>
                         <h3 class="flex items-center h3 mb-4 text-lg font-semibold text-gray-900 dark:text-white">Bachelors of Technology in Information Technology<span class="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-pink-300 ms-3">Latest</span></h3>
                         <time class="block mb-2 text-sm font-normal leading-none text-white mt-5 ">2020 -2024</time>
-                        <p class="mb-1 text-base font-normal text-white">Cochin Univercity of Science and Technology</p>
+                        <p class=" text-base font-normal text-white">Cochin Univercity of Science and Technology</p>
                         <p class=" text-base font-normal text-white">CGPA - 8.9</p>
 
                     </li>

@@ -29,7 +29,7 @@ const Nav = () => {
         className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'>
           <BsClipboardData/>
         </Link >
-        <Link to='work'
+        <Link to='skills'
         activeClass='active'
         smooth={true}
         spy={true}
