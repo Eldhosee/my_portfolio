@@ -7,8 +7,8 @@ import { motion } from "framer-motion";
 
 const Banner = () => {
   return (
-    <section className='section' id='home'>
-      <div className='container mx-auto  '>
+    <section className='section max-md:mb-10' id='home'>
+      <div className='container mx-auto '>
         <motion.div initial={{opacity:0,y:100}} whileInView={{ opacity: 1,y:0 }} transition={{duration: 1, ease: "easeOut"}}
          className='flex max-md:flex-col-reverse lg:justify-between items-center'>
           <div>

@@ -2,7 +2,7 @@ import React from 'react'
 import {motion} from 'framer-motion'
 const Educations = () => {
     return (
-        <div className='section  flex flex-col justify-center items-center' id='educations'>
+        <div className='section h-[100vh]  flex flex-col justify-center items-center' id='educations'>
         <motion.div initial={{opacity:0,y:100}} whileInView={{ opacity: 1,y:0 }} transition={{duration: 1, ease: "easeOut"}}
  >
             <div className='mb-10 flex justify-center items-center'>

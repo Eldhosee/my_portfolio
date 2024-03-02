@@ -3,9 +3,9 @@ import about_image from '../assets/about.webp'
 import { motion } from "framer-motion";
 const About = () => {
   return (
-  <section  className='section h-[100vh]' id='about'>
+  <section  className='section h-[100vh] ' id='about'>
     <motion.div initial={{opacity:0,y:100}} whileInView={{ opacity: 1,y:0 }} transition={{duration: 2, ease: "easeOut"}} 
-     className='container mx-auto flex lg:flex-row max-md:flex-col items-center'>
+     className='container mx-auto flex lg:flex-row max-md:flex-col items-center  '>
       <div className='flex-1 bg-contain bg-no-repeat
       bg-top mb-10'>
         <img 

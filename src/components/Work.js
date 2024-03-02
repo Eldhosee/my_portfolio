@@ -20,9 +20,10 @@ const Work = () => {
   ];
   
   return (
+    <div className='section h-[100vh]' id='work'>
   <motion.div
   initial={{opacity:0,y:100}} whileInView={{ opacity: 1,y:0 }} transition={{duration: 1, ease: "easeOut"}} className='section flex flex-col justify-center items-center m-5' id='work'>
-    <div id='work' className='mb-10'>
+    <div  className='mb-10'>
                 <h2 className='h2 text-accent'>
                     Work Experience
                 </h2>
@@ -44,7 +45,8 @@ const Work = () => {
         </div>
       ))}
       
-  </motion.div>);
+  </motion.div>
+  </div>);
 };
 
 export default Work;

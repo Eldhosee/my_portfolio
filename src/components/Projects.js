@@ -8,7 +8,7 @@ import img3 from '../assets/portfolio-img3.png';
 
 const ProjectCard = ({ imgSrc, projectTitle, projectDescription }) => (
   <motion.div initial={{opacity:0,y:100}} whileInView={{ opacity: 1,y:0 }} transition={{duration: 1, ease: "easeOut"}}
-   className='group relative overflow-hidden border-2 border-white/20 rounded-x1 m-5'>
+   className='  group relative overflow-hidden border-2 border-white/20 rounded-x1 m-5'>
     <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
     <img src={imgSrc} alt='img' className='group-hover:scale-125 transition-all duration-500' />
     <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
