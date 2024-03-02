@@ -1,9 +1,10 @@
 import React from 'react';
 import avatar from '../assets/avatar.webp';
-import { FaGithub, FaLinkedinIn, FaCode } from 'react-icons/fa'
+import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
+import { SiLeetcode,SiCodingninjas  } from "react-icons/si";
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from "framer-motion";
-import { fadeIn } from "../variants";
+
 const Banner = () => {
   return (
     <section className='section' id='home'>
@@ -55,7 +56,10 @@ const Banner = () => {
                   <FaLinkedinIn/>
                 </a>
                 <a href='#'>
-                  <FaCode/>
+                  <SiLeetcode/>
+                </a>
+                <a href='#'>
+                  <SiCodingninjas/>
                 </a>
               </div>
           </div>
