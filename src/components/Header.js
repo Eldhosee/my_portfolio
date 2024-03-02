@@ -2,11 +2,11 @@ import React from 'react';
 import logo from '../assets/logo.webp'
 const Header = () => {
   return (
-  <header id='header' className='py-5  flex justify-between items-center  ml-10'>
+  <header id='header' className='py-5 container mx-auto flex justify-between items-center  '>
 
 
     <a href='#'>
-      <img src={logo} alt='logo' className='h-16 ' />
+      <h3 className='h3 text-gradient'>My Portfolio</h3>
     </a>
 
 

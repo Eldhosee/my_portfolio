@@ -1,19 +1,21 @@
-import img1 from '../assets/portfolio-img1.png';
-import img2 from '../assets/portfolio-img2.png';
-import img3 from '../assets/portfolio-img3.png';
+import c1 from '../assets/certificates/certi1.webp';
+import c2 from '../assets/certificates/certi2.webp';
+import c3 from '../assets/certificates/certi3.webp';
+
 export const data = [
     {
       id: 1,
-      img: img1,
+      img: c1,
     },
     {
       id: 2,
-      img: img2,
+      img: c2,
     },
     {
-      id: 3,
-      img: img3,
-    },
+        id: 3,
+        img: c3,
+      },
+    
     
   ];
   

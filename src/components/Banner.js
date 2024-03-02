@@ -43,9 +43,9 @@ const Banner = () => {
           <div className='flex flex-col 
           '>
               <div>
-                <button className='btn btn-lg'> Contact me</button>
+                <a href='#contact'><button className='btn btn-lg'> Contact me</button></a>
                 <a href='#projects' className='text-gradient btn-link ml-10'>
-                  My Portfolio
+                  My Projects
                 </a>
               </div>
               <div className='flex  text-[20px] gap-x-6 max-w-max mt-5 ml-2'>
