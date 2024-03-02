@@ -20,7 +20,7 @@ const Work = () => {
   ];
   
   return (
-    <div className='section h-[100vh]' id='work'>
+    <div className='section h-[100vh] flex justify-center ' id='work'>
   <motion.div
   initial={{opacity:0,y:100}} whileInView={{ opacity: 1,y:0 }} transition={{duration: 1, ease: "easeOut"}} className='section flex flex-col justify-center items-center m-5' id='work'>
     <div  className='mb-10'>

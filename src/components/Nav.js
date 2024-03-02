@@ -1,9 +1,10 @@
 import React from 'react';
 import { BiHomeAlt, BiUser } from 'react-icons/bi';
-import { BsClipboardData, BsBriefcase, BsChatSquare } from 'react-icons/bs';
+import { BsClipboardData, BsBriefcase } from 'react-icons/bs';
 import { Link } from 'react-scroll';
 import { MdOutlineSchool } from "react-icons/md";
 import { FaCode } from "react-icons/fa6";
+import { GrProjects } from "react-icons/gr";
 
 const navLinks = [
   { to: 'header', icon: <BiHomeAlt /> },
@@ -11,7 +12,8 @@ const navLinks = [
   { to: 'educations', icon: <MdOutlineSchool /> },
   { to: 'skills', icon: <FaCode /> },
   { to: 'work', icon: <BsBriefcase /> },
-  { to: 'projects', icon: <BsClipboardData /> },
+  { to: 'projects', icon: <GrProjects /> },
+  { to: 'certificate', icon: <BsClipboardData /> },
 ];
 
 const Nav = () => {

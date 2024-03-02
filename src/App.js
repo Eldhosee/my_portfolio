@@ -9,6 +9,7 @@ import Work from './components/Work';
 import Contact from './components/Contact';
 import Educations from './components/Educations';
 import Projects from './components/Projects';
+import Certificate from './components/Certificate';
 
 const App = () => {
   return (
@@ -21,7 +22,7 @@ const App = () => {
       <Skill />
       <Work />
       <Projects/>
-      <Contact />
+      <Certificate />
       
     </div>
   );
