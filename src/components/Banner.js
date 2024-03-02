@@ -44,21 +44,21 @@ const Banner = () => {
           '>
               <div>
                 <button className='btn btn-lg'> Contact me</button>
-                <a href='#' className='text-gradient btn-link ml-10'>
+                <a href='#projects' className='text-gradient btn-link ml-10'>
                   My Portfolio
                 </a>
               </div>
               <div className='flex  text-[20px] gap-x-6 max-w-max mt-5 ml-2'>
-                <a href='#'>
+                <a href='https://github.com/Eldhosee'>
                   <FaGithub/>
                 </a>
-                <a href='#'>
+                <a href='https://www.linkedin.com/in/eldhose-iype-a02145214?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'>
                   <FaLinkedinIn/>
                 </a>
-                <a href='#'>
+                <a href='https://leetcode.com/eldhoseiype211/'>
                   <SiLeetcode/>
                 </a>
-                <a href='#'>
+                <a href='https://www.codingninjas.com/studio/profile/fba9066c-2545-4d7b-878d-2a66c4977673'>
                   <SiCodingninjas/>
                 </a>
               </div>
