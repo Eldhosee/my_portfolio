@@ -34,7 +34,7 @@ const Projects = () => {
       <div className='container mx-auto'>
         <div className='flex-1 flex flex-col justify-center items-center gap-y-12 mb-10 lg:mb-0'>
           <h2 className='h2 text-accent'>My Projects</h2>
-          <div className='grid grid-cols-2 max-xl:grid-cols-2  max-sm:grid-cols-1 gap-5'>
+          <div className='grid grid-cols-2 max-xl:grid-cols-2  max-md:grid-cols-1 gap-5'>
             {project_data.map((project, index) => (
               <ProjectCard key={index} {...project} />
             ))}
