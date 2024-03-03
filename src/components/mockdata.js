@@ -24,7 +24,7 @@ export const data = [
     {
       imgSrc: p1,
        projectTitle: 'Article summarizer', 
-       projectDescription: 'Simplify your reading with article summarizer that transforms lengthy articles into clear and concise summaries' ,
+       projectDescription: 'Simplify your reading with article summarizer that transforms  articles into  concise summaries' ,
        github:'https://github.com/Eldhosee/summarizer-',
        live_link:'https://summarizer2.netlify.app/'
     },

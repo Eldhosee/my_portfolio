@@ -12,7 +12,7 @@ import skill9 from '../assets/skills/js.webp'
 import { motion } from 'framer-motion'
 const Skill = () => {
   return (
-    <div className='section h-[100vh]' id='skills' >
+    <div className='section ' id='skills' >
       <div   className='container  mx-auto flex lg:flex-row max-md:flex-col justify-between items-center'>
         <motion.div initial={{ opacity: 0, y: 100 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 1, ease: "easeOut" }}
           className='   flex justify-center items-center mb-10 lg:mr-5'>
