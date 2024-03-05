@@ -3,6 +3,7 @@ import c2 from '../assets/certificates/certi2.webp';
 import c3 from '../assets/certificates/certi3.webp';
 import p1 from '../assets/projects/p1.webp';
 import p2 from '../assets/projects/p2.webp';
+import p3 from '../assets/projects/p3.webp';
 export const data = [
     {
       id: 1,
@@ -34,6 +35,13 @@ export const data = [
        projectDescription: 'Flavorful Fare is a web application that serves as your ultimate recipe haven.' ,
        github:'https://github.com/Eldhosee/Flavorful-fare',
        live_link:'https://flavorful-fare.netlify.app/'
+    },
+    {
+      imgSrc: p3,
+       projectTitle: 'Movie Booking ', 
+       projectDescription: 'A robust full-stack project leveraging the Django web framework with a SQLite database backend.' ,
+       github:'https://github.com/Eldhosee/moviebooking',
+       live_link:'https://coderseeker1.pythonanywhere.com/'
     }
   ]
   

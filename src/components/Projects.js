@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { FaGithub } from 'react-icons/fa';
 import { LuLink } from "react-icons/lu";
 import {project_data} from './mockdata'
-import p1 from '../assets/projects/p1.webp'
+
 const ProjectCard = ({ imgSrc, projectTitle, projectDescription,github,live_link }) => (
   <motion.div initial={{opacity:0,y:100}} whileInView={{ opacity: 1,y:0 }} transition={{duration: 1, ease: "easeOut"}}
    className='  group relative overflow-hidden border-2 border-white/20 rounded  lg:w-full max-md:w-full max-md:h-[40vh] lg:h-[50vh] '>
