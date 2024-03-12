@@ -1,6 +1,7 @@
 import c1 from '../assets/certificates/certi1.webp';
 import c2 from '../assets/certificates/certi2.webp';
 import c3 from '../assets/certificates/certi3.webp';
+import c4 from '../assets/certificates/certi4.png';
 import p1 from '../assets/projects/p1.webp';
 import p2 from '../assets/projects/p2.webp';
 import p3 from '../assets/projects/p3.webp';
