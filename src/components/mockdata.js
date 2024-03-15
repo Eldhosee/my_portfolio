@@ -5,6 +5,7 @@ import c4 from '../assets/certificates/certi4.png';
 import p1 from '../assets/projects/p1.webp';
 import p2 from '../assets/projects/p2.webp';
 import p3 from '../assets/projects/p3.webp';
+import p4 from '../assets/projects/p4.webp';
 export const data = [
   {
     id: 1,
@@ -47,5 +48,12 @@ export const project_data = [
     projectDescription: 'A robust full-stack project leveraging the Django web framework with a SQLite database backend.',
     github: 'https://github.com/Eldhosee/moviebooking',
     live_link: 'https://coderseeker1.pythonanywhere.com/'
+  }
+  ,  {
+    imgSrc: p4,
+    projectTitle: 'Blog website ',
+    projectDescription: 'A robust full-stack project built using the MERN stack. This website features Google authentication, allowing users to generate, edit, delete, and comment on posts. ',
+    github: 'https://github.com/Eldhosee/Blog-Website',
+    live_link: 'https://blog-website-aum7.onrender.com/'
   }
 ]
