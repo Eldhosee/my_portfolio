@@ -30,17 +30,17 @@ export const data = [
 export const project_data = [
   {
     imgSrc: p1,
-    projectTitle: 'Article summarizer',
-    projectDescription: 'Simplify your reading with article summarizer that transforms  articles into  concise summaries',
-    github: 'https://github.com/Eldhosee/summarizer-',
-    live_link: 'https://summarizer2.netlify.app/'
+    projectTitle: 'Apple iPhone 15 Pro',
+    projectDescription: 'Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects. From custom animations to animated 3D models',
+    github: 'https://github.com/Eldhosee/IPhone-15-Pro-website',
+    live_link: 'https://iphone15pro1.netlify.app/'
   },
   {
     imgSrc: p2,
-    projectTitle: 'Flavorful Fare',
-    projectDescription: 'Flavorful Fare is a web application that serves as your ultimate recipe haven.',
-    github: 'https://github.com/Eldhosee/Flavorful-fare',
-    live_link: 'https://flavorful-fare.netlify.app/'
+    projectTitle: 'Movie Recommendation ',
+    projectDescription: 'movie recommendation system that suggests movies based on a provided movie name',
+    github: 'https://github.com/Eldhosee/Movie-recommder',
+
   },
   {
     imgSrc: p3,

@@ -30,7 +30,8 @@ const Projects = () => {
  
 
   return (
-    <div className='section ' id='projects'>
+    
+    <div className='section flex-col' id='projects'>
       <div className='container mx-auto'>
         <div className='flex-1 flex flex-col justify-center items-center gap-y-12 mb-10 lg:mb-0'>
           <h2 className='h2 text-accent'>My Projects</h2>
@@ -41,6 +42,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
+      <a href='https://github.com/Eldhosee' className='flex justify-center underline m-5 hover:text-blue-500'>see more</a>
     </div>
   );
 };
